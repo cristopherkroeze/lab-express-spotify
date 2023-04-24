@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+{{#each this.items}}
+<h1>{{name}}</h1>
+{{#if images.length }}
+<img src={{images.0.url}} alt="image1">
+{{/if}}
+
+{{/each}}
